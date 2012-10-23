@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "ConsoleApplication9\TestApplication.csproj", "{6974E404-5FDB-4725-806D-42A7E998C081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Extended", "System.Extended\System.Extended.csproj", "{97987EF1-D935-45F2-9EEB-E280EB8993EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.UnitTests.GuidExTests", "Test.UnitTests.GuidExTests\Test.UnitTests.GuidExTests.csproj", "{330E93AE-CF32-47B9-9D7E-F06FBB188759}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs18
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConsoleApplication9\\TestApplication.csproj
+		SccProjectName1 = ConsoleApplication9
+		SccLocalPath1 = ConsoleApplication9
+		SccProjectUniqueName2 = System.Extended\\System.Extended.csproj
+		SccProjectName2 = System.Extended
+		SccLocalPath2 = System.Extended
+		SccProjectUniqueName3 = Test.UnitTests.GuidExTests\\Test.UnitTests.GuidExTests.csproj
+		SccProjectName3 = Test.UnitTests.GuidExTests
+		SccLocalPath3 = Test.UnitTests.GuidExTests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6974E404-5FDB-4725-806D-42A7E998C081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6974E404-5FDB-4725-806D-42A7E998C081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6974E404-5FDB-4725-806D-42A7E998C081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6974E404-5FDB-4725-806D-42A7E998C081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97987EF1-D935-45F2-9EEB-E280EB8993EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97987EF1-D935-45F2-9EEB-E280EB8993EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97987EF1-D935-45F2-9EEB-E280EB8993EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97987EF1-D935-45F2-9EEB-E280EB8993EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330E93AE-CF32-47B9-9D7E-F06FBB188759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330E93AE-CF32-47B9-9D7E-F06FBB188759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330E93AE-CF32-47B9-9D7E-F06FBB188759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330E93AE-CF32-47B9-9D7E-F06FBB188759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
