@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GuidEx</id>
+    <version>1.0.2</version>
+    <title>GuidEx</title>
+    <authors>Patrik Tengström</authors>
+    <owners>Patrik Tengström</owners>
+    <description>
+      This is an extended Guid layer that can create version 5 Guid's. If you ever find the need for a Guid based on an arbitrary string given a work field (i.e. name space) this is the Guid creator for you.
+
+      If you ever need to know what version a particular Guid has, this stucture can help you with that as well.
+    </description>
+    <releaseNotes>
+      The version 5 creation is built upon the RFC4122 GUID definition.
+    </releaseNotes>
+    <summary>
+      The extended Guid struct for making version 5 Guid's.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://guidex.codeplex.com/</projectUrl>
+    <iconUrl>
+      https://download-codeplex.sec.s-msft.com/Download?ProjectName=guidex&amp;DownloadId=850949&amp;Build=20907
+    </iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://guidex.codeplex.com/license</licenseUrl>
+    <copyright>Copyright (C) Patrik Tengström 2014</copyright>
+    <references>
+      <reference file="System.Extended.dll" />
+    </references>
+    <tags>Guid GuidEx System System.Extended</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" />
+      <frameworkAssembly assemblyName="System.Core" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

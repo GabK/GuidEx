@@ -208,7 +208,7 @@ namespace System
                 var data1 = BitConverter.ToInt32(hash, 0);
                 var data2 = BitConverter.ToInt16(hash, 4);
                 var data3 = (short)((short)(BitConverter.ToInt16(hash, 6) & 0x0FFF) | 0x5000);
-                _data4_0 = (byte)((byte)(hash[8] & 0x3F) | 0x40);
+                _data4_0 = (byte)((byte)(hash[8] & 0x3F) | 0x80);
                 _data4_1 = hash[9];
 
                 _data4_7 = hash[15];
@@ -238,7 +238,7 @@ namespace System
             var data1 = BitConverter.ToInt32(hash, 0);
             var data2 = BitConverter.ToInt16(hash, 4);
             var data3 = (short)((short)(BitConverter.ToInt16(hash, 6) & 0x0FFF) | 0x5000);
-            _data4_0 = (byte)((byte)(hash[8] & 0x3F) | 0x40);
+            _data4_0 = (byte)((byte)(hash[8] & 0x3F) | 0x80);
             _data4_1 = hash[9];
 
             _data4_7 = hash[15];
@@ -272,7 +272,7 @@ namespace System
             var data1 = BitConverter.ToInt32(hash, 0);
             var data2 = BitConverter.ToInt16(hash, 4);
             var data3 = (short)((short)(BitConverter.ToInt16(hash, 6) & 0x0FFF) | 0x5000);
-            _data4_0 = (byte)((byte)(hash[8] & 0x3F) | 0x40);
+            _data4_0 = (byte)((byte)(hash[8] & 0x3F) | 0x80);
             _data4_1 = hash[9];
 
             _data4_7 = hash[15];
