@@ -1,4 +1,4 @@
-![Logo of the project](https://raw.githubusercontent.com/thebug/GuidEx/Extended Guid.png)
+![Logo of the project](https://raw.githubusercontent.com/thebug/GuidEx/ExtendedGuid.png)
 
 # GuidEx - a .NET extension
 > String to Guid made simple 
