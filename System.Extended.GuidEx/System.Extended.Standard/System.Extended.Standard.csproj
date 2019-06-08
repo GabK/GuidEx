@@ -2,8 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>GuidEx.Standard</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Gabriel Kenderessy</Authors>
+    <Company>Air Canada</Company>
+    <Product>GuidEx.Standard</Product>
+    <Description>This is an extended Guid layer that can create version 5 Guid's. If you ever find the need for a Guid based on an arbitrary string given a work field (i.e. name space) this is the Guid creator for you.
 
-  <Import Project="..\System.Extended.Shared\System.Extended.Shared.projitems" Label="Shared" />
+If you ever need to know what version a particular Guid has, this stucture can help you with that as well.</Description>
+    <PackageReleaseNotes>The version 5 creation is built upon the RFC4122 GUID definition.</PackageReleaseNotes>
+    <RepositoryType>Git</RepositoryType>
+    <PackageProjectUrl>https://github.com/AirCanada/GuidEx</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/AirCanada/GuidEx/License.md</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/AirCanada/GuidEx</RepositoryUrl>
+    <Copyright>Copyright (C) Patrik Tengström 2014</Copyright>
+  </PropertyGroup>
 
 </Project>
